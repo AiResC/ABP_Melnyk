@@ -108,10 +108,10 @@ public class Lab_1 {
                 break;
 
             case 4: //4
-                int[] arr = {1, 26, 4, 2, 137, 46, 39, 304, 25, 7, 431, 216, 2, 290, 26, 324};
-                int min = arr[0] - arr[15];
+                double[] arr = {1.5, 26.3, 4.8, 2.1, 137.6, 46.2, 39.9, 304.4, 25.7, 7.3, 431.8, 216.5, 2.9, 290.1, 26.6, 324.0};
+                double min = arr[0] - arr[15];
                 for (int i = 0; i<8; i++){
-                    int temp = arr[i]-arr[15-i];
+                    double temp = arr[i]-arr[15-i];
                     if (temp < min){
                         min = temp;
                     }
