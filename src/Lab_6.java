@@ -56,7 +56,7 @@ public class Lab_6 extends JFrame {
     private DrawingPanel drawingPanel;
 
     public Lab_6() {
-        setTitle("Лабораторна робота №6 - Варіант 7");
+        setTitle("Малювання");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(550, 500);
         setLocationRelativeTo(null);
